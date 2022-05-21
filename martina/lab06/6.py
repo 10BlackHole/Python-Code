@@ -23,6 +23,7 @@ else:
     for i in range(0, len(list_1) - 1):
         if (list_1[i+1] - list_1[i]) < 5:
             print("No se cumple el protocolo de distanciamiento social")
-            break
+            # break
+            pass
         else:
             print("Se cumple el protocolo de distanciamiento social")
